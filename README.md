@@ -1,6 +1,3 @@
-Yes — you want **one single text area**, with the entire professional README inside it, so you can **copy everything at once** into `README.md`.
-
-````markdown
 # 📊 AI-Powered Sales Prediction & Business Intelligence System
 
 An end-to-end Machine Learning and Generative AI application that predicts future sales and transforms prediction results into actionable business insights using Google Gemini.
@@ -1498,5 +1495,3 @@ git add README.md
 git commit -m "Add professional project documentation"
 git push
 ````
-
-**One correction from the earlier README:** don't list `.env` as part of the project structure. Keep it out of the repository entirely because it contains your Gemini API key.
