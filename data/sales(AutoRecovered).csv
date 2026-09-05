@@ -1,0 +1,7 @@
+Model,Trained on,Rows,R²,Real-world question it answers,Who'd use it
+General,All data,"2,121",0.704,"""What's a typical price for this order?""","Default, everyday use"
+Recent Year,2017 only,686,0.691,"""What does pricing look like right now, not historically?""",Someone worried older data (2014-16) reflects outdated pricing
+High Profit,Top 25% by profit,532,0.611,"""What would this order look like if we priced it like our best deals?""","A salesperson trying to protect margin, not just move volume"
+Best Seller,Furnishings only,957,0.639,"""How does our most popular product line specifically price?""",Inventory/demand planning focused on the flagship product
+Loss Risk (new),Orders with negative Profit,714,0.601,"""Does this order look like the kind that historically loses us money?""",A manager approving discount requests — early warning system
+High Discount (new),Orders with >20% discount,542,0.626,"""Once we apply a big discount, what does the resulting sale actually look like?""",Sales team deciding how far a discount can go before it hurts too much
